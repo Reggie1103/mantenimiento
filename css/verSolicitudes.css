@@ -1,0 +1,146 @@
+/* Estilo general */
+body {
+    font-family: 'K2D', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #002D54;
+    margin: 0;
+    color: white;
+}
+
+/* Encabezado */
+header#encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #002D54;
+}
+
+header #logo img {
+    width: 200px;
+}
+
+.iconos i {
+    color: #E4A92F;
+    font-size: 20px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.iconos i:hover {
+    color: #dfbf5e;
+}
+
+.volver-boton {
+    background-color: #E4A92F;
+    color: #002D54;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.volver-boton:hover {
+    background-color: #dfbf5e;
+}
+
+/* Contenedor de la tabla */
+.table-container {
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #EFEFEF;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    color: #000;
+}
+
+/* Título */
+#solicitud_envio h2 {
+    color: #002D54;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin: 0;
+}
+
+table thead {
+    background-color: #E4A92F;
+    color: #000;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Botón de acción */
+table td a {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #E4A92F;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+table td a:hover {
+    background-color: #dfbf5e;
+    color: #002D54;
+}
+
+/* Footer */
+.footer-container {
+    background-color: #002d54;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    margin: 0 20px;
+}
+
+.footer-heading {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 5px;
+}
+
+.branch-schedule,
+.contact-info {
+    list-style-type: none;
+    padding: 0;
+}
+
+.schedule-item,
+.contact-item {
+    margin-bottom: 5px;
+}
+
+.social-icon img {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
